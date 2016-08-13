@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*
+Navigation Css:
+*/
+.nav{width:768px; height:32px; background:#eee; border-bottom:1px solid #ccc; font-size:14px; line-height:32px; font-weight:bold; text-indent:12px;}
+
+.nav-a:link, .nav-a:visited, .nav-a:hover{color:#333;font-family:"微软雅黑","宋体"; font-size:14px; line-height:32px; text-decoration:none; font-weight:bold;}
+.nav-a:hover{color:#333; font-family:"微软雅黑","宋体"; font-size:14px; text-decoration:none; font-weight:bold;}
+
+/*
+Article List:
+	Icon Css:
+	List Css:
+	Date Css:
+*/
+.article-list{
+	padding:0 10px;
+	width:748px; 
+	border-bottom:1px dashed #eee;
+	font-family:"微软雅黑","宋体"; font-size:14px; line-height:32px;
+}
+.item-a:link, .item-a:visited, .item-a:hover{
+	color:#666; font-family:"微软雅黑","宋体"; font-size:14px; font-size:14px; line-height:32px; text-decoration:none;
+}
+.item-a:hover{color:#333; text-decoration:none;}
+.item-icon{color:#f00; }
+.item-date{color:#ccc;}
+
+/*
+Article Show Css:
+*/
+
+#show-title{margin-top:6px; width:768px; height:32px; font-size:16px; font-weight:bold; color:#ff6600; line-height:32px; text-align:center;}
+#show-inf{margin-top:6px; width:768px; height:32px; font-size:12px; color:#666; line-height:32px; text-align:center;}
+#show-body{padding:12px; width:744px; height:auto; color:#333; font-size:14px; line-height:24px;}
+#show-body *{ color:#333; font-size:14px;  line-height:24px;}
+/*
+	Product Css:153
+.pro-li-wrapper{margin:6px; width:144px; height:161px; display:inline;}
+.pro-img-wrapper{padding:6px; width:127px; height:127px; border:1px solid #ccc; background:#fff; display:inline;}
+.pro-img-wrapper img{width:127px; height:127px;}
+.pro-img-title{width:141px; height:20px; text-align:center; overflow:hidden;}
+*/
+.pro-li-wrapper{padding:5px; width:246px; height:224px; display:inline;}
+.pro-img-wrapper{width:244px; height:183px; border:1px solid #66cc00; display:inline;}
+.pro-img-wrapper img{width:244px; height:183px;}
+.pro-img-title{width:246px; height:24px; line-height:24px; text-align:center; overflow:hidden;}
+
+.pro-img-title a:hover, .pro-img-title a:visited, .pro-img-title a:link{font-size:14px;}
+/* 
+
+	Pagenation Css:
+*/
+/* used for pagenation.
+<div style=" float:left; width:576px; height:26px; background-color:#000000; overflow:hidden;">12</div>
+********************************************************************************/
+div#pagination{
+	margin:0 auto;
+	padding:0 10px;
+	width:748px; height:36px; 
+	margin-top:4px; margin-bottom:4px;
+	font-size:12px; color:#999999; text-align:left; line-height:34px;
+	overflow:hidden;
+}
+
+.a_pagination:link { font-size: 14px; color: #6ba7ac; text-decoration:none; }
+.a_pagination:visited { font-size: 14px; color: #6ba7ac; text-decoration:none; }
+.a_pagination:hover { font-size: 14px; color: #6ba7ac; text-decoration:none; font-weight:normal; }
+.a_info{ font-size:14px; color:#6ba7ac; cursor:default;}
+.a_selectpage{ font-size: 14px; color: #ff0000; text-decoration: none; font-weight:bold; }

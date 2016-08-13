@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+
+/*body{ background:url(../images/bg.jpg) center fixed no-repeat !important;}*/
+
+.appHeaderBG {background:#eee}
+.appHeaderTitle{ background-image:url(../images/appHeaderBG.png);}
+	
+.copyright{text-align:center; color:#fff; line-height:24px;}
+
+.btn-user-add{background:url(../images/user_add.gif);}
+.btn-user-delete{background:url(../images/user_delete.gif);}
+.btn-add{background:url(../images/application_form_add.png);}
+.btn-edit{background:url(../images/application_form_edit.png);}
+.btn-delete{background:url(../images/application_form_delete.png);}
+.btn-search{background:url(../images/application_form_magnify.png);}
+.btn-refresh{background:url(../images/arrow_refresh.png);}
+.btn-move{background:url(../images/arrow_right.png);}
+
+
+.ico1{background-image:url(../images/group16.gif) !important;}
+
+/* style rows on mouseover */
+.x-grid-row-over .x-grid-cell-inner {
+	font-weight: bold;
+}

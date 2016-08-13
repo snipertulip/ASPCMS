@@ -1,0 +1,59 @@
+@charset "utf-8";
+#wrap{
+	float:none !important;
+	margin:0 auto; padding:0;
+	width:1002px;
+	overflow:hidden;
+	margin-top:10px;
+}
+#sideleft{
+	float: left; margin-right:10px;
+	width: 768px; height:auto;
+	text-align: left;
+}
+#sideright{
+	float: left;
+	width: 224px; /*710px*/
+	text-align: left;
+}
+/* easy clearing */
+#wrap:after
+	{
+	content: '[DO NOT LEAVE IT IS NOT REAL]'; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+#wrap
+	{
+	display: inline-block;
+	}
+/*\*/
+#wrap
+	{
+	display: block;
+	}
+/* end easy clearing */
+/*\*/
+#sideleft, #sideright
+	{
+	padding-bottom: 32767px !important;
+	margin-bottom: -32767px !important; 
+	}
+@media all and (min-width: 0px) {
+#sideleft, #sideright
+	{
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important; 
+	}
+#sideleft:before, #sideright:before
+	{
+	content: '[DO NOT LEAVE IT IS NOT REAL]';
+	display: block;
+	background: inherit;
+	padding-top: 32767px !important;
+	margin-bottom: -32767px !important;
+	height: 0;
+	}
+}

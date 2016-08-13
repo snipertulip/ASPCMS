@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>FEVA CMS</title>
+	<link rel="stylesheet" type="text/css" href="../js/ext/resources/ext-theme-neptune/ext-theme-neptune-all.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/index.css"/>
+	<style type="text/css">
+		.x-form-vcode {
+			height: 24px;
+			width: 64px;
+			padding-left: 4px;
+		}
+
+		.x-form-vcodefield {
+			color: black;
+			padding: 2px 6px 1px 6px;
+			background: white repeat-x 0 0;
+			border-width: 1px;
+			border-style: solid;
+			border-color: silver #d9d9d9 #d9d9d9;
+			height: 24px;
+			width: 50px;
+			margin: 0 2px;
+			line-height: 18px;
+		}
+
+		.x-form-vcodefield input {
+			margin: 0 2px;
+		}
+
+			/* line 26, ../../../ext-theme-neutral/sass/src/form/field/Text.scss
+					   */
+		.x-strict .x-ie6 .x-form-vcodefield, .x-strict .x-ie7 .x-form-vcodefield {
+			height: 19px;
+		}
+
+			/* line 40, ../../../ext-theme-neutral/sass/src/form/field/Text.scss
+					   */
+		.x-form-focus {
+			border-color: #3892d3;
+		}
+
+			/* line 45, ../../../ext-theme-neutral/sass/src/form/field/Text.scss
+					   */
+		.x-form-empty-field, textarea.x-form-empty-field {
+			color: gray;
+		}
+
+			/*
+					   line 61, ../../../ext-theme-neutral/sass/src/form/field/Text.scss */
+		.x-quirks
+            .x-ie9p .x-form-vcodefield, .x-ie10 .x-form-vcodefield, .x-ie9 .x-form-vcodefield,
+		.x-ie8 .x-form-vcodefield, .x-ie7 .x-form-vcodefield, .x-ie6 .x-form-vcodefield {
+			margin-top: -1px;
+			margin-bottom: -1px;
+			margin-left: 0;
+		}
+	</style>
+	<script type="text/javascript" src="../js/ext/ext-all.js">
+	</script>
+	<script type="text/javascript" src="../js/ext/ext-theme-neptune.js">
+	</script>
+	<script type="text/javascript" src="../js/ext/locale/ext-lang-zh_CN.js">
+	</script>
+	<script type="text/javascript">
+		Ext.onReady(function () {
+			Ext.BLANK_IMAGE_URL = "resources/images/s.gif";
+			Ext.Loader.setConfig({
+				enabled: true,
+				paths: {
+					'CMS': 'app',
+					'Ext.ux': '../js/ext/src/ux'
+				}
+			});
+			Ext.require(['CMS.APP']);
+			Ext.create('CMS.APP');
+		});
+
+	</script>
+</head>
+<body>
+
+
+</body>
+
+</html>

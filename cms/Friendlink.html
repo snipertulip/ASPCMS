@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>管理员</title>
+	<link rel="stylesheet" type="text/css" href="../js/ext/resources/ext-theme-neptune/ext-theme-neptune-all.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/index.css"/>
+	<script type="text/javascript" src="../js/ext/ext-all.js">
+	</script>
+	<script type="text/javascript" src="../js/ext/ext-theme-neptune.js">
+	</script>
+	<script type="text/javascript" src="../js/ext/locale/ext-lang-zh_CN.js"></script>
+<script type="text/javascript" src="../js/ckeditor/ckfinder/ckfinder.js"></script>
+<script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript">
+		Ext.onReady(function () {
+			Ext.BLANK_IMAGE_URL = "resources/images/s.gif";
+			Ext.Loader.setConfig({
+				enabled: true,
+				paths: {
+					'CMS': 'app',
+					'Ext.ux': '../js/ext/src/ux'
+				}
+			});
+			Ext.require(['Ext.ux.UrlParameters']);
+			Ext.require(['Ext.ux.CKeditor']);
+			Ext.create('CMS.Friendlink');
+		});
+
+
+	</script>
+</head>
+<body>
+</body>
+</html>

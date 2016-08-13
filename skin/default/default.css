@@ -1,0 +1,51 @@
+@charset "utf-8";
+body, div, form, input, map { margin: 0; padding: 0;}
+body{ background:url(images/bg.png) repeat-x;}
+div { font-family:"微软雅黑","宋体"; font-size: 12px; float:left;}
+a:link, a:visited {font-family:"微软雅黑","宋体"; font-size: 12px; color: #333; text-decoration: none; }
+a:hover {font-family:"微软雅黑","宋体"; font-size: 12px; color: #666; text-decoration: none; font-weight: normal; }
+
+.center { float: none; margin: 0 auto; }
+.right { float: right; }
+.clear { clear: both; height: 0 !important; line-height: 0 !important; overflow: hidden; }
+.mt2 { margin-top: 2px; }
+.mt5 { margin-top: 5px; }
+.mt7 { margin-top: 7px; }
+.ml5 { margin-left: 5px; }
+.ml7 { margin-left: 7px; }
+.inline { display: inline; }
+.pt7 { padding-top: 7px; }
+.pl7 { padding-left: 7px; }
+.cf00 { color: #f00; }
+.c666 { color: #666; }
+.c999 { color: #999; }
+.bgc139b48{background-color:#139b48}
+.bgc983695{background-color:#983695}
+.bgcf26722{background-color:#f26722}
+.bgc999999{background-color:#999999}
+.font-center{text-align:center;}
+.cursor{cursor:pointer;}
+.bold{font-weight:bold; color:#f60}
+/*
+Default
+*/
+.container { float: none !important; margin: 0 auto; width: 1002px; padding: 0; overflow: hidden; }
+/* easy clearing */
+.container:after { content: '[DO NOT LEAVE IT IS NOT REAL]'; display: block; height: 0; clear: both; visibility: hidden; }
+.container { display: inline-block; }
+/*\*/
+.container { display: block; }
+/* end easy clearing */
+
+
+
+#sideright .category{width:222px; height:32px;  background:#090; border-bottom:1px solid #8aacc4; font-size:14px; color:#fff; line-height:32px; font-weight:bold; text-indent:12px;}
+#sideright .category_father{width:222px; height:32px; border-bottom:1px dashed #090; font-size:14px; color:#090; line-height:32px; font-weight:bold; text-indent:12px;}
+
+#sideright .category_father a:link, #sideright .category_father a:visited { font-size: 14px; color: #090; text-decoration: none; }
+#sideright .category_father a:hover { font-size: 14px; color: #090; text-decoration: none; font-weight: bold; }
+
+#sideright .category_son {width:200px; padding-left:22px;}
+#sideright .category_son a:link{ font-size: 12px; color: #090; text-decoration: none; line-height:25px;}
+#sideright .category_son a:visited { font-size: 12px; color: #090; text-decoration: none; line-height:25px; }
+#sideright .category_son a:hover { font-size: 12px; color: #090; text-decoration: none; font-weight: bold;  line-height:25px;}
